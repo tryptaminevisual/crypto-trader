@@ -125,7 +125,6 @@ Generates ASCII charts for:
 
   - Investment vs Current Value
   - ROI
-  - 
 ## Dependencies
 The project uses the following Rust crates:
 

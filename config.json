@@ -1,0 +1,30 @@
+{
+  "api_key": "f70fb329-f776-4d60-97bf-30102a9db756",
+  "coins": [
+    {
+      "symbol": "ALPHA",
+      "investment": 100.00,
+      "purchase_price": 0.0758
+    },
+    {
+      "symbol": "TOSHI",
+      "investment": 100.00,
+      "purchase_price": 0.001086
+    },
+    {
+      "symbol": "FRIC",
+      "investment": 75.00,
+      "purchase_price": 0.02488
+    },
+    {
+      "symbol": "MIGGLES",
+      "investment": 75.00,
+      "purchase_price": 0.09289
+    },
+    {
+      "symbol": "BENJI",
+      "investment": 150.00,
+      "purchase_price": 0.04171
+    }
+  ]
+}

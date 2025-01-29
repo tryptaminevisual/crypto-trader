@@ -17,7 +17,6 @@ Crypto Trader is a Rust-based command-line application that helps you track your
   - ROI (Return on Investment)
 - Fully configurable via a `config.json` file.
 
----
 
 ## Installation
 

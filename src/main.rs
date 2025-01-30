@@ -184,4 +184,13 @@ fn generate_ascii_charts(
     Chart::new(80, 20, 0.0, roi_chart.len() as f32)
         .lineplot(&Shape::Lines(&roi_chart))
         .display();
+
+    // Table-like Graph: ROI per Coin
+    println!("\n--- Return on Investment (COIN) ---");
+    for (i, (coin, roi)) in coins.iter().zip(rois.iter()).enumerate() {
+        // Generate a horizontal bar for each coin
+        let bar_length = ((*roi as i32).max(-50).min(50) + 50) as usize; // Normalize ROI to fit within -50 to 50
+        let bar = "⣿".repeat(bar_length / 2); // Create the bar using "⣿" characters
+        println!("{:<8} | {:>6.2}% {}", coin, roi, bar); // Print coin name, ROI, and the bar
+    }
 }
